@@ -29,7 +29,7 @@ public abstract class Moods {
         this.date = date;
     }
 
-    public abstract String GetMood();
+    public abstract String getMood();
 
     public String listMoods() {
         return "[GoodMood, BadMood]";

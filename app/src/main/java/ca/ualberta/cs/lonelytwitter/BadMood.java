@@ -17,7 +17,7 @@ public class BadMood extends Moods {
     }
 
     @Override  // don't need but it's helpful
-    public String GetMood() {
+    public String getMood() {
         return "Bad Mood";
     }
 
