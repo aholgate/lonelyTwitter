@@ -41,20 +41,20 @@ public class LonelyTwitterActivity extends Activity {
 				setResult(RESULT_OK);
 				String text = bodyText.getText().toString();
 
-				NormalTweet newTweet = new Tweet("Hello");
+				//NormalTweet newTweet = new Tweet("Hello");
 				ImportantTweet newTweet2 = new ImportantTweet("hello", new Date());
 
 
 
 				try {
-					newTweet.setMessage("Goodbye");
+					newTweet2.setMessage("Goodbye");
 				} catch (TweetTooLongException e) {
 
 				}
 
 
 				ArrayList<Tweet> tweetList = new ArrayList<Tweet>;
-				tweetList.add(newTweet);
+				//tweetList.add(newTweet);
 				tweetList.add(newTweet2);
 
 				// like print, when running would show in the android monitor

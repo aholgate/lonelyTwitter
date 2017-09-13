@@ -21,8 +21,8 @@ public class NormalTweet extends Tweet{
 
 
     @Override
-    public Boolean.isImportant(){
-        retun Boolesn.FALSE
+    public Boolean isImportant(){
+        return Boolean.FALSE;
 
     }
 }
