@@ -6,7 +6,7 @@ import java.util.Date;
  * Created by aholgate on 9/12/17.
  */
 
-public abstract class Tweet {
+public class Tweet {
 
     // attributes
     private String message;
@@ -25,7 +25,7 @@ public abstract class Tweet {
     }
 
     // functions;methods
-    public abstract Boolean isImportant();
+    //public abstract Boolean isImportant();
 
     public void setMessage(String message) throws TweetTooLongException{
         if (message.length() > 140){

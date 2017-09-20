@@ -16,9 +16,9 @@ public class ImportantTweet extends Tweet implements Tweetable{
         super(message, date);
     }
 
-    @Override  // don't need but it's helpful
-    public Boolean isImportant(){
-        return Boolean.TRUE;
-    }
+    //@Override  // don't need but it's helpful
+    //public Boolean isImportant(){
+        //return Boolean.TRUE;
+    //}
 }
 
