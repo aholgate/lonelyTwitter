@@ -1,10 +1,17 @@
 package ca.ualberta.cs.lonelytwitter;
 
 import java.util.Date;
+import io.searchbox.annotations.JestId;
 
 public abstract class Tweet implements Tweetable {
     private String message;
     private Date date;
+
+    @JestId
+    private String id; // super important for setter and getter so they know what to look for
+
+    public String getId() { return id; }
+    public void setId(String id) { this.id = id; }
 
     public Tweet(String message){
         this.message = message;
